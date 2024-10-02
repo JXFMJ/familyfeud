@@ -1,1 +1,2 @@
-# familyfeud
+Angelika Adaya
+Mark Torben Rodis
