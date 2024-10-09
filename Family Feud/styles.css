@@ -48,12 +48,12 @@ body {
 
 
 #start-game:hover, #submit-answer:hover {
-    background-color: violet;
+    background-color: red;
 }
 
 
 .nav-link:hover {
-    color: violet;
+    color: red;
 }
 
 
@@ -86,4 +86,3 @@ body {
         flex-direction: column;
     }
 }
-
