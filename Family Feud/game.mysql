@@ -1,0 +1,10 @@
+CREATE DATABASE IF NOT EXISTS family_feud;
+
+USE family_feud;
+
+CREATE TABLE scores (
+    id INT AUTO_INCREMENT PRIMARY KEY,  -- Correct MySQL syntax for auto-increment
+    player_name VARCHAR(100) NOT NULL,  -- Adjust as necessary for player name length
+    score INT NOT NULL,                 -- Score is an integer
+    game_date DATETIME DEFAULT CURRENT_TIMESTAMP  -- Automatically sets the current date and time
+);
