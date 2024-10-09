@@ -5,13 +5,14 @@ body {
 
 
 #game-header {
-    background-color: #007bff; 
-    color: white;
+    background-color: blue; 
+    color: black;
 }
 
 
 #game-container {
     padding: 20px;
+    color: blue;
     max-width: 900px;
     margin: auto;
     height: 75vh; 
@@ -22,7 +23,8 @@ body {
 
 
 .table {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    box-shadow: 0 4px 8px black(0, 0, 0, 0.1);
+    color:blue; 
 }
 
 
@@ -46,12 +48,12 @@ body {
 
 
 #start-game:hover, #submit-answer:hover {
-    background-color: #0056b3;
+    background-color: violet;
 }
 
 
 .nav-link:hover {
-    color: #0056b3;
+    color: violet;
 }
 
 
@@ -62,7 +64,7 @@ body {
 
 
 #results {
-    background-color: #f8f9fa; 
+    background-color: violet; 
     padding: 20px;
     border-radius: 5px;
     min-height: 100px;
@@ -84,3 +86,4 @@ body {
         flex-direction: column;
     }
 }
+
